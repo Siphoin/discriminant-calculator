@@ -13,6 +13,7 @@ int a = 0;
 	int c = 0;
 	cout << "Введите переменные: a, b, с" << endl;
 	cin >> a >> b >> c;
+	cout << "Ваши данные:\na = " << a << "\nb = " << b << "\nc = " << c << endl;
 	float result = pow(b, 2) - 4 * a * c;
 	if (result <= 0) {
 		cout << "Нет вещественных корней." << endl;
